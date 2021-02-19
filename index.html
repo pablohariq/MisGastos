@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Ingreso de gastos</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p>Ingrese su gasto</p>
+  
+  <form>
+    <label class= "item" for="fecha">Fecha</label><br>
+    <input type="date" id="fecha"><br><br>
+    
+    
+    <label class= "item" for="catgasto">Categoría</label><br>
+    <input type="radio" name="catgasto" id="catcomida" value="comida">
+    <label for="catcomida">Comida</label><br>
+    
+    <input type="radio" name="catgasto" id="catentretencion" value="entretencion">
+    <label for="catentretencion">Entretención</label><br>
+    
+     <input type="radio" name="catgasto" id="catvestuario" value="vestuario">
+    <label for="catvestuario">Vestuario</label><br>
+    
+     <input type="radio" name="catgasto" id="catdeporte" value="deporte">
+     <label for="catdeporte">Deporte</label><br>
+     
+      <input type="radio" name="catgasto" id="catcuentas" value="cuentas">
+      <label for="catcuentas">Cuentas/Deudas</label><br><br>
+    
+    <!-- completar con categorias -->
+    <label class="item" for = "monto" >Monto</label><br>
+    <input type="number" id="monto"><br><br>
+    
+    <label class="item" for="desc">Descripción</label><br>
+    <input type="text" id="desc"><br><br>
+    
+    <input type="submit" class="button" value="Registrar"> 
+  </form>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

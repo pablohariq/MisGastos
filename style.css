@@ -1,0 +1,16 @@
+body {
+  font-size: 15pt;
+}
+
+.item {
+  background-color: silver;
+  padding-left: 50px;
+}
+
+.button{
+  size: 30px;
+  border: ridge;
+  border-radius: 50px;
+  background-color: #D4FFFE
+  
+}
